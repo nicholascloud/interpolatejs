@@ -1,0 +1,6 @@
+{
+  "source": "src",
+  "spec": "spec",
+  "output": "build",
+  "dependencies": ["anvil.mocha"]
+}
