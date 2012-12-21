@@ -50,7 +50,8 @@ If you are really feeling brave, you might consider creating a method on the `St
 var interpolate = require('interpolate');
 
 String.prototype.fmt = function () {
-  var args = Array.prototype.slice.call(arguments, 0).unshift(this);
+  var args = Array.prototype.slice.call(arguments, 0);
+  args.unshift(this);
   return interpolate.apply(null, args);
 };
 
