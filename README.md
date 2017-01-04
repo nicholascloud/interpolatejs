@@ -1,5 +1,7 @@
 # interpolate.js
 
+__NOTE:__ This project is no longer maintained. Consider using [sprintf.js](https://github.com/alexei/sprintf.js) instead. If you are using ES2015, [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) might be a suitable alternative as well.
+
 `interpolate.js` is a simple string interpolation module for both node.js and web browser use.  `interpolate` may be consumed as a CommonJS module, an AMD module, or as a browser global.
 
 ## Building interpolate
